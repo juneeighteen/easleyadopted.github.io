@@ -1,0 +1,25 @@
+# Site settings
+title: 'Easley Adopted'  # Your Title
+tagline: 'The journey of our adopted child.'  # A brief tagline for your site
+sidebar_image: /images/booties.jpg
+
+encoding: UTF-8
+markdown: kramdown
+
+paginate: 8
+paginate_path: "page:num"
+
+#pygments: true
+baseurl: ""
+
+
+# Site settings
+name:           limingyang2012
+email:          limingyang2012@zju.edu.cn
+uri:            limingyang2012.github.io
+github:         limingyang2012
+twitter:        limingyang2012
+facebook:       limingyang2012
+linkedin:       limingyang2012
+
+gems: [jekyll-paginate]
