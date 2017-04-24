@@ -58,6 +58,47 @@ body { font-family: "Microsoft YaHei",arial, sans-serif; font-size: 100%; height
 /*header*/
 .header { display: block; padding: 2% 6%; }
 
+@font-face {
+    font-family: 'childname';
+    src: url("../../fonts/squarekids-Regular.woff2") format('woff2');
+}
+
+.blocky { 
+    font-family: 'childname';
+}
+
+.blnc {
+    color: #333;
+}
+
+.bl0 {
+    color: #DB7D16;
+
+}
+.bl1 {
+    color: #7AC95D;
+}
+
+.bl2 {
+    color: #4D083F;
+}
+
+
+.bl3 {
+    color:#7AC95D;
+
+}
+
+.bl4 {
+    color: #7AC95D;
+}
+
+.bl5 {
+    color: #4D083F;
+
+}
+
+
 .logo { float: left; margin-top: 1%; }
 @media only screen and (max-width: 1024px) { .logo { width: 30%; float: left; } }
 @media only screen and (max-width: 768px) { .logo { text-align: center; float: none; width: 100%; margin-bottom: 4%; } }
