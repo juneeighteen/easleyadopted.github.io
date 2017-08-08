@@ -1,0 +1,26 @@
+{
+"actions": [
+    {
+        "name": "<u>BUY COFFEE</u><br/><br/>About 36% of the proceeds from your coffee purchase help support our adoption.",
+        "url": "assets/img/coffeemug.png",
+        "link": "https://www.justlovecoffee.com/Beneficiary/Profile/5087"
+    },
+    {
+        "name": "<u>DONATE</u><br/><br/>Make a tax-deductible donation at AdoptTogether (PureCharity)",
+        "url": "assets/img/money.png",
+        "link": "https://purecharity.com/easleyadoptedme"
+    },
+     {
+        "name": "<u>Video Karaoke Request</u><br/><br/>If you donate more than $2 and want us to attempt to sing you a song, leave a song title in the notes field of your donation and we'll post Facebook live videos with your song requests, once a week for whoever participated. *Some lyric changes may apply.",
+        "url": "assets/img/music.png",
+        "link": "https://purecharity.com/easleyadoptedme"
+    },
+     {
+        "name": "Auction (Coming soon!)",
+        "url": "assets/img/megaphone.png",
+        "link": "#"
+    }
+
+    ]
+
+}
