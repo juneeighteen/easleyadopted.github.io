@@ -12,6 +12,21 @@ description: â€œAs soon as I saw you, I knew an adventure was going to happen.â€
 </div>
 
 <script>
+
+    var urlParams;
+(window.onpopstate = function () {
+    var match,
+        pl     = /\+/g,  // Regex for replacing addition symbol with a space
+        search = /([^&=]+)=?([^&]*)/g,
+        decode = function (s) { return decodeURIComponent(s.replace(pl, " ")); },
+        query  = window.location.search.substring(1);
+
+    urlParams = {};
+    while (match = search.exec(query))
+       urlParams[decode(match[1])] = decode(match[2]);
+})();
+
+
 $.getJSON( "data/actions.json", function( data ) {
 
 
@@ -28,6 +43,10 @@ $.getJSON( "data/actions.json", function( data ) {
 
         }
         let thisAction = data.actions[i];
+
+        if (thisAction.slug in urlParams) {
+        window.location = thisAction.link;
+       }
 
         $(panel(thisAction['name'], thisAction['url'], thisAction['link'])).appendTo('#actionContainer');
 

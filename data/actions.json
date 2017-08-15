@@ -3,22 +3,32 @@
     {
         "name": "<u>BUY COFFEE</u><br/><br/>About 36% of the proceeds from your coffee purchase help support our adoption.",
         "url": "assets/img/coffeemug.png",
+        "slug": "buy-coffee",
         "link": "https://www.justlovecoffee.com/Beneficiary/Profile/5087"
     },
     {
         "name": "<u>DONATE</u><br/><br/>Make a tax-deductible donation at AdoptTogether (PureCharity)",
         "url": "assets/img/money.png",
+        "slug": "donate",
         "link": "https://purecharity.com/easleyadoptedme"
     },
      {
         "name": "<u>Video Karaoke Request</u><br/><br/>If you donate more than $2 and want us to attempt to sing you a song, leave a song title in the notes field of your donation and we'll post Facebook live videos with your song requests, once a week for whoever participated. *Some lyric changes may apply.",
         "url": "assets/img/music.png",
+        "slug": "karakoe",
         "link": "https://purecharity.com/easleyadoptedme"
     },
      {
         "name": "Auction (Coming soon!)",
+        "slug": "auction",
         "url": "assets/img/megaphone.png",
         "link": "#"
+    },
+    {
+        "name": "Coffee House",
+        "slug": "coffee-house",
+        "url": "assets/img/megaphone.png",
+        "link": "https://www.facebook.com/events/1386398534801130/"
     }
 
     ]
