@@ -25,9 +25,9 @@
         "link": "#"
     },
     {
-        "name": "Coffee House",
+        "name": "<u>Coffee House</u><br/><br/>September 16 we're hosting a coffee house! Click for details.",
         "slug": "coffee-house",
-        "url": "assets/img/megaphone.png",
+        "url": "assets/img/coffeemug.png",
         "link": "https://www.facebook.com/events/1386398534801130/"
     }
 
