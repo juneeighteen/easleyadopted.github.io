@@ -29,6 +29,12 @@
         "slug": "coffee-house",
         "url": "assets/img/coffeemug.png",
         "link": "https://www.facebook.com/events/1386398534801130/"
+    },
+    {
+        "name": "<u>Posh</u><br/><br/>Specialtiy Skin and Hair Care.",
+        "slug": "posh",
+        "url": "assets/img/user-picture-default.png",
+        "link": "https://www.perfectlyposh.com/LindsayEasley/products"
     }
 
     ]

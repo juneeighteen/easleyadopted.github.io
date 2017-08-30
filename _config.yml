@@ -22,4 +22,4 @@ twitter:        limingyang2012
 facebook:       limingyang2012
 linkedin:       limingyang2012
 
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]

@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gem 'jekyll'
 gem 'jekyll-paginate'
 gem 'kramdown'
-gem 'rouge', '~>1.7'
+gem 'addressable'
+gem 'jekyll-watch'

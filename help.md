@@ -33,7 +33,7 @@ $.getJSON( "data/actions.json", function( data ) {
     
     for (i in data.actions) {
         
-        if (i % 4 == 0) {
+        if (i % 6 == 0) {
             if (i!= 0) {
                 //End the last row
                 $("</div>").appendTo("#actionContainer");
@@ -116,7 +116,7 @@ function panel(title, imageSrc, link) {
     let myPanel = $("<div/>", pnlAttributes);
 
     let myColAttributes = {
-        class: "col-md-3",
+        class: "col-md-2",
         html: myPanel
     };
 
